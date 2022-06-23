@@ -44,7 +44,7 @@ Com isso, a **seguinte lógica** precisará ser aplicada:
 
 ```javascript
 {
-  id: /* O id será sempre um número maior que o id do último produto cadastrado */,
+  id: /* O id será um número maior que o id do último produto cadastrado, único para cada produto */,
   nome: /* Nome do produto a ser cadastrado */,
   preco: /* Preço do produto a ser cadastrado */
 }
