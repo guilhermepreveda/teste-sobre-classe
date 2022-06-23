@@ -20,7 +20,7 @@ Desenvolva uma classe `Pessoa` que terá as seguintes propriedades recebidas por
 
 ### class Funcionario 
 
-Desenvolva uma classe `Funcionario` que será uma estensão da classe Pessoa, ou seja, tudo dessa classe será herado, porém, terá a seguinte propriedade predefinida adicional:
+Desenvolva uma classe `Funcionario` que será uma estensão da classe `Pessoa`, ou seja, tudo dessa classe será herado, porém, terá a seguinte propriedade predefinida adicional:
 
 - `contratada` - Tipo **Boolean** | Representa a situação do contrato do funcionário
   - *Predefinida com o valor `true`*
