@@ -19,7 +19,38 @@ class Loja {
 }
 
 /* ==== Você desenvolve o seu código a partir daqui ============ */
+class Pessoa {
+  constructor(nome,cpf){
+    this.nome=nome
+    this.cpf=cpf
+  }
+}
 
+class Funcionario extends Pessoa{
+  constructor(nome,cpf,setor){
+  super(nome,cpf)
+  this.contratada= true
+  this.setor= setor
+  }
+  cadastrarProduto(nomeProduto,precoProduto){
+    const incrementoid= Loja.estoque[Loja.estoque.length-1].id+1
+    const produto = {
+      id:incrementoid,
+      nome:nomeProduto,
+      preco:precoProduto,
+    }
+    Loja.estoque.push(produto)
+    return  "Produto cadastrado com sucesso!"
+  }
+}
+
+
+const pessoa1= new Funcionario("Jardel", 123456789)
+console.log(pessoa1)
+
+
+pessoa1.cadastrarProduto("macarrao",12)
+console.log(Loja.estoque)
 /* ============================================================= */
 /* Valores para usar como parâmetro ao instanciar a classe Pessoa: */
 //   - "Jardel", 123456789
