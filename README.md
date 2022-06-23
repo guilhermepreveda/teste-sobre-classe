@@ -33,14 +33,14 @@ Com isso, desenvolva o seguinte método nessa classe:
 
 #### method cadastrarProduto
 
-Esse método será responsável por cadastrar um novo produto no estoque da loja. Ele receberá as seguintes propriedades via parâmetro:
+Esse método será responsável por **cadastrar um novo produto no estoque** da loja. Ele receberá as seguintes propriedades via parâmetro:
 
 - `nome` - Tipo **String** | Representa o nome do produto a ser cadastrado
 - `preco` - Tipo **Number** | Representa o preço do produto a ser cadastrado
 
-Com isso, a seguinte lógica precisará ser aplicada:
+Com isso, a **seguinte lógica** precisará ser aplicada:
 
-- Montar um objeto do produto a ser cadastrado utilizando a seguinte estrutura:
+- **Montar o objeto do produto** a ser cadastrado utilizando a seguinte estrutura:
 
 ```javascript
 {
@@ -50,9 +50,9 @@ Com isso, a seguinte lógica precisará ser aplicada:
 }
 ```
 
-- Adicionar o objeto acima ao array `estoque` da classe estática `Loja`
+- **Adicionar o objeto acima ao array** `estoque` da classe estática `Loja`
 
-- Por fim, retornar a seguinte mensagem (sem ser console.log()):
+- Por fim, **retornar a seguinte mensagem** (sem ser `console.log()`):
 
 ```javascript
   "Produto cadastrado com sucesso!"
