@@ -35,8 +35,8 @@ Com isso, desenvolva o seguinte método nessa classe:
 
 Esse método será responsável por **cadastrar um novo produto no estoque** da loja. Ele receberá as seguintes propriedades via parâmetro:
 
-- `nome` - Tipo **String** | Representa o nome do produto a ser cadastrado
-- `preco` - Tipo **Number** | Representa o preço do produto a ser cadastrado
+- `nomeProduto` - Tipo **String** | Representa o nome do produto a ser cadastrado
+- `precoProduto` - Tipo **Number** | Representa o preço do produto a ser cadastrado
 
 Com isso, a **seguinte lógica** precisará ser aplicada:
 
